@@ -1,0 +1,78 @@
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.wrap{
+    width: 500px;
+    padding: 20px 10px;
+    background-color: aliceblue;
+    margin: 50px auto ;
+}
+h2{
+    width: 100%;
+    text-align: center;
+
+}
+.header{
+    width: 100%;
+    height: 70px;
+}
+.header .add{
+    width: 80%;
+    box-sizing: border-box;
+    font: 25px/50px '宋体';
+    text-indent: 1em;
+}
+.header .addBtn{
+    width: 15%;
+    height: 56px;
+    vertical-align: top;
+}
+.cons{
+    width: 100%;
+
+}
+.cons li{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 5px;
+}
+li .select{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+li .do{
+    font: 20px/40px "宋体";
+    float: left;
+
+}
+li .del{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .3);
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+li .del:hover{
+    background:black;
+}
+.line{
+    text-decoration: line-through; 
+    color: #666666;
+}
+footer{
+    padding: 10px;
+}
+footer .left{
+    float: left;
+}
+footer .right{
+    float: right;
+}
